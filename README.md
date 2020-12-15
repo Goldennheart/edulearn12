@@ -1,2 +1,2 @@
 # edulearn
-https://goldennheart.github.io/edulearn/educationalwebsite/index.html
+https://goldennheart.github.io/edulearn/educationalweb/index.html
