@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+    <header>
+        <h3 class="logo">EDUTECH</h3>
+        <nav>
+            <ul>
+                <li><a href="signup.html" >Sign Up</a></li>
+                <li><a href="signin.html" >Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="contactmain" style="margin: 0 auto; width: 80%;">
+            <section style="width: 100%; margin: 0 auto;">
+    
+                <div class="contact" style="padding: 25px 50px; background-color: #ccc; text-align: center;">
+                  <div class="contact_us" style="padding: 20px 20px; background-color: blueviolet; font-size: 24px;">
+                    <h1 style="color:#000; font-weight: bolder;">CONTACT US</h1>
+                  </div>
+                </div>
+                <div class="help" style="text-align: center; padding-bottom: 20px; font-size: 20px;">
+                  <h1>How can we help you ? </h1>
+                </div>
+            
+                  <div class="question">
+                    <center>
+                      <h3>Find the most frequently asked questions</h3>
+                        <div class="questioncontact" style="display: grid; text-align: center; grid-template-columns: 1fr 1fr 1fr 1fr; padding: 10px 0px; margin-top: 15px;">
+                          <a href=" "><h3>Meet my Tutor</h3></a>
+                          <a href=" "><h3>Need Instructional Materials</h3></a>
+                          <a href=" "><h3>How long do I need for training</h3></a>
+                          <a href=" "><h3>Meet Other Students</h3></a>
+                        </div>
+                    </center>
+                  </div>
+            
+                <div class="stillineed">
+                  <center>      
+                    <h1>Still Need Help ?</h1>
+                    <h4>Send us your request using the online form opposite and we will get back to you within 2 working days.</h4></center>
+                    <br><br>    
+                </div>
+            
+                <section>
+                  <form action="{% url 'contact' %}" method="post" style="border: 1px solid blueviolet ;">
+                    
+                    <div style="display: grid;grid-template-columns: 1fr 1fr;">
+                      <input style="margin: 15px; height: 55px;" type="text" name="name" id="" placeholder="Enter Your Name">
+                      <input style="margin: 15px; height: 55px;" type="text" name="email" id="" placeholder="Enter Your Email">
+                    </div>
+                    <div style="display: grid;grid-template-columns: 1fr 1fr;">
+                      <input style="margin: 15px; height: 55px;" type="text" name="number" id="" placeholder="Enter Your Phone Number">
+                      <input style="margin: 15px; height: 55px;" type="text" name="order" id="" placeholder="Enter Your Order Number">
+                    </div>
+                    <select name="select" id="" style="height: 55px; width: 97.8%; margin: 15px;">
+                      <option value="">Select an Option</option>
+                      <option value="">I want to confirm my order</option>
+                      <option value="">I want to track my order</option>
+                      <option value="">I want to cancel my order</option>
+                    </select><br>
+                    <input style="height: 55px; width: 97.8%; margin: 15px;" type="text" name="cancel" id="" placeholder="For return and cancellation, please enter your bank details">
+            
+                    
+                    <center>
+                      <div >
+                        <h1 style="padding: 15px; border: blueviolet solid 1px; margin:0 300px; text-align: center;"></h1>
+                        <h3>I am not a Robot</h3>
+                        <h1>re<span>CAPTCHA</span></h1>
+                      </div>
+              
+                    </center>
+                    <center>
+                      <button style="padding: 15px 30px;background-color: blueviolet; font-size: 20px; font-weight: bold;border-radius: 20px; ">Submit</button><br><br>
+                    </center>
+                  </form><br><br>
+                    <section>
+                      <center>
+                        <h2 style="color: blueviolet;">CUSTOMER SERVICE</h2><br><br>
+                        <h4>08118236545</h4>
+                        <h4>Monday, 8:30am - 5:00pm; Tues-Thurs, 8am - 5:00pm; Friday, 8am - 4:00pm; Saturdays, Sundays & Public Holidays, CLOSED.</h4>
+                      </center>
+                    </section>
+                  
+                </section>
+            
+              </section><br><br><br><br>
+            
+        </div>
+
+</body>
+</html>

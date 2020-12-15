@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+    <header>
+        <h3 class="logo">EDUTECH</h3>
+        <nav>
+            <ul>
+                <li><a href="signup.html" >Sign Up</a></li>
+                <li><a href="signin.html" >Login</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<br>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+            <center>
+                <h1>Sign In To Your Dashboard</h1>
+            </center>
+            <hr>
+      
+          <label for="name"><b> Name</b></label>
+          <input type="text" placeholder="Full name" name="name" required>
+          <label for="farmname"><b>School Name</b></label>
+          <input type="text" placeholder="School Name" name="farm" required>
+          <label for="location"><b>School Location</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>Need to generate another password <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="signinbtn">Sign in</button>
+          </div>
+        </div>
+      </form>
+
+</body>
+</html>
